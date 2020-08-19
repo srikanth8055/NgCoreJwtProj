@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <string>root[0].#pageSet[0].Page1[0].btnClearForm[0]: </string>
+  <string>root[0].#pageSet[0].Page1[0].Barcode[0]: </string>
+  <string>root[0].P1[0].sfClient[0].NameFirst[0]: fghfghgfh</string>
+  <string>root[0].P1[0].sfClient[0].NameMI[0]: U</string>
+  <string>root[0].P1[0].sfClient[0].NameLast[0]: fghgfhfgh</string>
+  <string>root[0].P1[0].sfClient[0].PMI[0]: 12345678</string>
+  <string>root[0].P1[0].sfClient[0].BirthDate[0]: 1234</string>
+  <string>root[0].P1[0].sfClient[0].Address[0]: qwert</string>
+  <string>root[0].P1[0].sfClient[0].City[0]: rtrtrttyty</string>
+  <string>root[0].P1[0].sfClient[0].StateID[0]: 32</string>
+  <string>root[0].P1[0].sfClient[0].Zip[0]: 343434</string>
+  <string>root[0].P1[0].sfClient[0].Phone[0]: 3434343434</string>
+  <string>root[0].P1[0].sfClient[0].LegalRep[0]: </string>
+  <string>root[0].P1[0].sfClient[0].LegalRepPhone[0]: </string>
+  <string>root[0].P1[0].sfClient[0].LegalRepAddress[0]: </string>
+  <string>root[0].P1[0].sfClient[0].LegalRepCity[0]: </string>
+  <string>root[0].P1[0].sfClient[0].LegalRepStateID[0]: </string>
+  <string>root[0].P1[0].sfClient[0].LegalRepZip[0]: </string>
+  <string>root[0].P1[0].sfClient[0].Contact[0]: </string>
+  <string>root[0].P1[0].sfClient[0].ContactRelationship[0]: </string>
+  <string>root[0].P1[0].sfClient[0].ContactPhone[0]: </string>
+  <string>root[0].P1[0].sfClient[0].ContactAddress[0]: </string>
+  <string>root[0].P1[0].sfClient[0].ContactCity[0]: </string>
+  <string>root[0].P1[0].sfClient[0].ContactStateID[0]: </string>
+  <string>root[0].P1[0].sfClient[0].ContactZip[0]: </string>
+  <string>root[0].P1[0].sfClient[0].sfMaritalStatus[0].MaritalStatus[0]: 04 - Married</string>
+  <string>root[0].P1[0].sfClient[0].sfDiagnosis[0].sfQ[0].PrimaryDiagnosis[0]: fghfghfgh</string>
+  <string>root[0].P1[0].sfClient[0].sfDiagnosis[0].sfQ[0].SecondaryDiagnosis[0]: fghfghfgh</string>
+  <string>root[0].P1[0].sfClient[0].sfLivingArrangement[0].sfQ[0].CLA[0]: 04 - Living in a congregate setting</string>
+  <string>root[0].P1[0].sfClient[0].sfLivingArrangement[0].sfQ[0].CLAPlanned[0]: </string>
+  <string>root[0].P1[0].sfReason[0].ReferralReason2[0]: 08 - Abuse, neglect or exploitation</string>
+  <string>root[0].P1[0].sfReason[0].ReferralReason1[0]: 08 - Abuse, neglect or exploitation</string>
+  <string>root[0].P1[0].sfCMCC[0].ProviderNPI[0]: fghfgh</string>
+  <string>root[0].P1[0].sfCMCC[0].NameLast[0]: fghgfhfgh</string>
+  <string>root[0].P1[0].sfCMCC[0].NameFirst[0]: fghfghgfh</string>
+  <string>root[0].P1[0].sfCMCC[0].ActivityTypeDate[0]: fghfgh</string>
+  <string>root[0].P1[0].sfCMCC[0].LeadAgency[0]: fghfgh</string>
+  <string>root[0].P1[0].sfClient[0].sfProgramLicense[0].sfQ[0].ProgramTypePlanned[0]: </string>
+  <string>root[0].P1[0].sfClient[0].sfProgramLicense[0].sfQ[0].ProgramType[0]: 06 - Foster care, family</string>
+  <string>root[0].P1[0].sfClient[0].sfHousing[0].sfQ[0].HousingTypePlanned[0]: </string>
+  <string>root[0].P1[0].sfClient[0].sfHousing[0].sfQ[0].HousingType[0]: 05 - Foster Care</string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfPhoneCalling[0].PhoneCalling[0]: 03 - Need a lot of help or constant supervision</string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfAnswerPhone[0].AnswerPhone[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfWorkVolunteering[0].Interest[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfTransportation[0].Transportation[0]: 03 - Need a lot of help or constant supervision</string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfMoneyMgmt[0].MoneyMgmt[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfLaundry[0].Laundry[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfHeavyHousekeeping[0].HeavyHousekeeping[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfLightHousekeeping[0].LightHousekeeping[0]: 03 - Need a lot of help or constant supervision</string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfPreparingMeals[0].PreparingMeals[0]: 03 - Need a lot of help or constant supervision</string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfShopping[0].Shopping[0]: 03 - Need a lot of help or constant supervision</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfGrooming[0].sfDependency[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfDressing[0].sfDependency[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfDressing[0].Dressing[0]: 02 - Need some help from another person to put your clothes on</string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfComments[0].Comments[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfDiabetes[0].Diabetes[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfA[0].sfMedication[0].MgtMeds[0]: 07 - Only need someone to remind me to take medications (need verbal or visual reminders only)</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfGrooming[0].Grooming[0]: 02 - Need and get daily help from another person</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfWalking[0].sfDependency[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfEating[0].Eating[0]: 02 - Need and get help in cutting food, buttering bread or arranging food</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfBathing[0].sfDependency[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfBathing[0].Bathing[0]: 03 - Need and get help getting in and out of the tub</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfBedMobility[0].BedMobility[0]: 03 - Always need and get help to be turned or change positions</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfBedMobility[0].sfDependency[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfTransferring[0].Transferring[0]: 04 - Never get out of a bed or chair</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfTransferring[0].sfDependency[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfEating[0].sfDependency[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfWalking[0].Walking[0]: 02 - Need help from one person to help you walk</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHealth[0].sfPain[0].sfPainYes[0].sfQOL[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfToileting[0].Toileting[0]: 02 - Have accidents sometimes, but not more than once a week</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfToileting[0].sfDependency[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfToileting[0].sfSupervision[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfNotes[0].Notes[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfB[0].sfNotes[0].Dependencies[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHealth[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHealth[0].sfAffect[0].Affect[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHealth[0].sfPain[0].sfPainYes[0].PainMgmtPlan[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHealth[0].sfPain[0].sfPainYes[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHospNF[0].Admitted[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHospNF[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHealth[0].sfPain[0].sfPainYes[0].NeedsReferral[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHealth[0].sfPain[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfClinicalMonitoring[0].ClinicalMonitoring[0]: 01 - Once or twice in 24 hours</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfSpecialTreatment[0].SpecialTreatment[0]: 02 - One or more TX</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfMedChange[0].Change[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfMedChange[0].Name[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfMedChange[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfFalls[0].Vision[0]: 02 - No, but you have a concern about your balance or falling affects your daily activities or access to the community</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfVision[0].Vision[0]: 02 - No, but you have a concern about your balance or falling affects your daily activities or access to the community</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHearing[0].Hearing[0]: 01 - Hearing difficulty at level of conversation</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfHealthRate[0].Health[0]: 04 - Excellent</string>
+  <string>root[0].P1[0].sfUpdating[0].sfD[0].sfBehavior[0].Implications[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfD[0].sfBehavior[0].Behavior[0]: 02 - Needs and receives regular staff intervention in the form of redirection. "Regular" is defined as 4 or more times per week.</string>
+  <string>root[0].P1[0].sfUpdating[0].sfD[0].sfOrientation[0].Implications[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfD[0].sfOrientation[0].Orientation[0]: 04 - Comatose</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfOtherHealth[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfUpdating[0].sfC[0].sfOtherHealth[0].OtherChanges[0]: </string>
+  <string>root[0].P1[0].sfPCP[0].sfADL[0].OtherChanges[0]: </string>
+  <string>root[0].P1[0].sfPCP[0].EffectiveDate[0]: fghfghfghfgh</string>
+  <string>root[0].P1[0].sfUpdating[0].sfD[0].sfSelfPreservation[0].Implications[0]: </string>
+  <string>root[0].P1[0].sfUpdating[0].sfD[0].sfSelfPreservation[0].SelfPreservation[0]: 04 - Both mentally and physically unable</string>
+  <string>root[0].P1[0].sfPCP[0].sfCBS[0].sfEffectiveness[0].AnticipatedDate[0]: </string>
+  <string>root[0].P1[0].sfPCP[0].sfCBS[0].sfEffectiveness[0].Responsible[0]: </string>
+  <string>root[0].P1[0].sfPCP[0].sfCBS[0].sfEffectiveness[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfPCP[0].sfCBS[0].sfTraining[0].Responsible[0]: </string>
+  <string>root[0].P1[0].sfPCP[0].sfCBS[0].sfTraining[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfPCP[0].sfCBS[0].sfWrittenIP[0].Responsible[0]: </string>
+  <string>root[0].P1[0].sfPCP[0].sfCBS[0].sfWrittenIP[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfPCP[0].sfCBS[0].OtherChanges[0]: </string>
+  <string>root[0].P1[0].sfPCP[0].sfHealth[0].OtherChanges[0]: </string>
+  <string>root[0].P1[0].sfOther[0].Notes[0]: </string>
+  <string>root[0].P1[0].sfOther[0].LeadAgencyContact[0]: </string>
+  <string>root[0].P1[0].sfOther[0].LeadAgency[0]: fghfgh</string>
+  <string>root[0].P1[0].sfOther[0].ReassessmentDueDate[0]: </string>
+  <string>root[0].P1[0].sfOther[0].CMCCSignature[0]: </string>
+  <string>root[0].P1[0].sfOther[0].Other[0]: </string>
+  <string>root[0].P1[0].sfOther[0].sfMaltreatment[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfOther[0].sfInformalCaregivers[0].choice[0]: 0</string>
+  <string>root[0].P1[0].sfPCP[0].sfRFC[0].OtherChanges[0]: </string>
+</ArrayOfString>

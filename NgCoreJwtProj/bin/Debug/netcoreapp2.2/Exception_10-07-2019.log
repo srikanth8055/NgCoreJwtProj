@@ -1,0 +1,5 @@
+----------------------------------------
+10-07-2019 13:25:15
+System.NotImplementedException: The method or operation is not implemented.
+   at Models.ReturnData.Dispose() in E:\NgCore\NgCoreJwtProj\Models\ReturnData.cs:line 16
+   at NgCoreJwtProj.Controllers.UserController.GetUserswithDapper() in E:\NgCore\NgCoreJwtProj\NgCoreJwtProj\Controllers\UserController.cs:line 63

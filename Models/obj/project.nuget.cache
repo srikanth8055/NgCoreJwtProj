@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "0SiGM0qKjDLYSDX6j8PBlEguJ17vfRMFSksxzUo/mVCD+A8oBHKoC9IXLXRf2AzBpbAXWR0hr+PJjk4Sc9fsjw==",
+  "success": true,
+  "projectFilePath": "D:\\Development\\E\\NgCore\\NgCoreJwtProj\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srika\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "C:\\Users\\srika\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "C:\\Users\\srika\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "C:\\Users\\srika\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "C:\\Users\\srika\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "C:\\Users\\srika\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\srika\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

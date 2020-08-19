@@ -1,0 +1,9 @@
+D:\Tfs-Git\AJACore\AJACore.Common\bin\Release\netcoreapp2.2\AJACore.Common.deps.json
+D:\Tfs-Git\AJACore\AJACore.Common\bin\Release\netcoreapp2.2\AJACore.Common.dll
+D:\Tfs-Git\AJACore\AJACore.Common\bin\Release\netcoreapp2.2\AJACore.Common.pdb
+D:\Tfs-Git\AJACore\AJACore.Common\obj\Release\netcoreapp2.2\AJACore.Common.csprojAssemblyReference.cache
+D:\Tfs-Git\AJACore\AJACore.Common\obj\Release\netcoreapp2.2\AJACore.Common.csproj.CoreCompileInputs.cache
+D:\Tfs-Git\AJACore\AJACore.Common\obj\Release\netcoreapp2.2\AJACore.Common.AssemblyInfoInputs.cache
+D:\Tfs-Git\AJACore\AJACore.Common\obj\Release\netcoreapp2.2\AJACore.Common.AssemblyInfo.cs
+D:\Tfs-Git\AJACore\AJACore.Common\obj\Release\netcoreapp2.2\AJACore.Common.dll
+D:\Tfs-Git\AJACore\AJACore.Common\obj\Release\netcoreapp2.2\AJACore.Common.pdb
