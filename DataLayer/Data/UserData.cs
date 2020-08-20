@@ -47,7 +47,7 @@ namespace DataLayer.Data
             }
             catch (Exception ex)
             {
-                LoggerFactory.Log.GetInstance.LogException(ex.StackTrace);
+                LoggerFactory.Log.LogException(ex.StackTrace);
                 return null;
             }
 
@@ -61,7 +61,7 @@ namespace DataLayer.Data
             }
             catch (Exception ex)
             {
-                LoggerFactory.Log.GetInstance.LogException(ex.StackTrace);
+                LoggerFactory.Log.LogException(ex.StackTrace);
                 return null;
             }
         }
@@ -76,13 +76,40 @@ namespace DataLayer.Data
             }
             catch (Exception ex)
             {
-               LoggerFactory.Log.GetInstance.LogException(ex.StackTrace);
+               Log.LogException(ex.StackTrace);
                 return null;
             }
                
             
         }
 
+        public void DeleteUser (User user)
+        {
+            try
+            {
+                _dbcontext.tblUser.Remove(user);
+                _dbcontext.SaveChanges();
+            }
+            catch
+            {
+
+            }
+        }
+        public void UpdateUser(User user)
+        {
+            try
+            {
+
+                var data=  _dbcontext.tblUser.Update(user);
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
         //dapper code
         #region dapper
 
@@ -90,7 +117,7 @@ namespace DataLayer.Data
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("ConnectionString")))
+                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("MyDbConnection")))
                 {
                     var result = con.Query<User>("select id,name,role,mailid,isDeleted from tbluser where name=@name and password=@password", new { @name = user.name, @password = user.password }).FirstOrDefault();
                     return result;
@@ -107,7 +134,7 @@ namespace DataLayer.Data
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("ConnectionString")))
+                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("MyDbConnection")))
                 {
                     var data = con.QueryMultiple("GetUsers", commandType: CommandType.StoredProcedure);
                     List<User> user = new List<User>();
@@ -127,7 +154,7 @@ namespace DataLayer.Data
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("ConnectionString")))
+                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("MyDbConnection")))
                 {
                     var data = con.Query<User>("GetUserById", new { @id = id }, commandType: CommandType.StoredProcedure).FirstOrDefault();
 
@@ -145,7 +172,7 @@ namespace DataLayer.Data
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("ConnectionString")))
+                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("MyDbConnection")))
                 {
                     var data = con.Execute("DeleteUserById", new { @id = id }, commandType: CommandType.StoredProcedure);
 
@@ -164,7 +191,7 @@ namespace DataLayer.Data
             try
             {
 
-                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("ConnectionString")))
+                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("MyDbConnection")))
                 {
                     var param = new DynamicParameters();
                     param.Add("@name", user.name);
@@ -182,8 +209,7 @@ namespace DataLayer.Data
             }
             catch (Exception ex)
             {
-                Log log = new Log();
-                log.LogException(Convert.ToString(ex));
+                Log.LogException(Convert.ToString(ex));
                 throw;
             }
         }
@@ -192,7 +218,7 @@ namespace DataLayer.Data
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("ConnectionString")))
+                using (SqlConnection con = new SqlConnection(Configuration.GetConnectionString("MyDbConnection")))
                 {
                     var param = new DynamicParameters();
                     param.Add("@id", user.id);

@@ -31,3 +31,11 @@ C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\M
 C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.csproj.CoreCompileInputs.cache
 C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.dll
 C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.pdb
+D:\Development\E\NgCore\NgCoreJwtProj\Models\bin\Debug\netcoreapp2.2\Models.deps.json
+D:\Development\E\NgCore\NgCoreJwtProj\Models\bin\Debug\netcoreapp2.2\Models.dll
+D:\Development\E\NgCore\NgCoreJwtProj\Models\bin\Debug\netcoreapp2.2\Models.pdb
+D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfoInputs.cache
+D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfo.cs
+D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.csproj.CoreCompileInputs.cache
+D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.dll
+D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.pdb

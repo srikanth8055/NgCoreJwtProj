@@ -8,6 +8,6 @@ namespace LoggerFactory
 {
    public interface ILog
     {
-        void LogException(string message);
+       static void LogException(string message);
     }
 }

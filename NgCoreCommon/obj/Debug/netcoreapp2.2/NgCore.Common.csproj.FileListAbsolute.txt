@@ -40,3 +40,15 @@ C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreap
 C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.csproj.CopyComplete
 C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.dll
 C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.pdb
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\bin\Debug\netcoreapp2.2\NgCore.Common.deps.json
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\bin\Debug\netcoreapp2.2\NgCore.Common.dll
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\bin\Debug\netcoreapp2.2\NgCore.Common.pdb
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\bin\Debug\netcoreapp2.2\Models.dll
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\bin\Debug\netcoreapp2.2\Models.pdb
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.csprojAssemblyReference.cache
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.AssemblyInfoInputs.cache
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.AssemblyInfo.cs
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.csproj.CoreCompileInputs.cache
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.csproj.CopyComplete
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.dll
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreCommon\obj\Debug\netcoreapp2.2\NgCore.Common.pdb

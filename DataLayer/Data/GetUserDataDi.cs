@@ -33,8 +33,7 @@ namespace DataLayer.Data
             }
             catch (Exception ex)
             {
-                Log log = new Log();
-                log.LogException(ex.StackTrace);
+              Log.LogException(ex.StackTrace);
 
                 return null;
             }

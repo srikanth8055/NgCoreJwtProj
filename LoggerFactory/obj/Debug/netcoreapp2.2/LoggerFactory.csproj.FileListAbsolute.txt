@@ -14,3 +14,12 @@ C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcorea
 C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcoreapp2.2\LoggerFactory.csproj.CoreCompileInputs.cache
 C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcoreapp2.2\LoggerFactory.dll
 C:\Users\srika\Downloads\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcoreapp2.2\LoggerFactory.pdb
+D:\Development\E\NgCore\NgCoreJwtProj\LoggerFactory\bin\Debug\netcoreapp2.2\LoggerFactory.deps.json
+D:\Development\E\NgCore\NgCoreJwtProj\LoggerFactory\bin\Debug\netcoreapp2.2\LoggerFactory.dll
+D:\Development\E\NgCore\NgCoreJwtProj\LoggerFactory\bin\Debug\netcoreapp2.2\LoggerFactory.pdb
+D:\Development\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcoreapp2.2\LoggerFactory.AssemblyInfoInputs.cache
+D:\Development\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcoreapp2.2\LoggerFactory.AssemblyInfo.cs
+D:\Development\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcoreapp2.2\LoggerFactory.csproj.CoreCompileInputs.cache
+D:\Development\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcoreapp2.2\LoggerFactory.dll
+D:\Development\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcoreapp2.2\LoggerFactory.pdb
+D:\Development\E\NgCore\NgCoreJwtProj\LoggerFactory\obj\Debug\netcoreapp2.2\LoggerFactory.csprojAssemblyReference.cache

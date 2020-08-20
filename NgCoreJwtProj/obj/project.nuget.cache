@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DrVVFPK3k5isaGn+ijGdFopJvtT/mXqR+7RPKmjcdXWRRR7a2D5lqlvE8QEv6eeB3+JgLNk3vPJemBB58Xk1pQ==",
+  "dgSpecHash": "VQPBPcXhUTQYGoqcRSB3hYxD/spDR0jmHUh19X+O9GCKSdZgTMCPB8yDfYw99zUk/WoFdvo+FoqXa3TIivKwIA==",
   "success": true,
   "projectFilePath": "D:\\Development\\E\\NgCore\\NgCoreJwtProj\\NgCoreJwtProj\\NgCoreJwtProj.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\srika\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.4\\microsoft.entityframeworkcore.2.2.4.nupkg.sha512",
     "C:\\Users\\srika\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.4\\microsoft.entityframeworkcore.abstractions.2.2.4.nupkg.sha512",
     "C:\\Users\\srika\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\2.2.4\\microsoft.entityframeworkcore.analyzers.2.2.4.nupkg.sha512",
+    "C:\\Users\\srika\\.nuget\\packages\\microsoft.entityframeworkcore.design\\2.2.4\\microsoft.entityframeworkcore.design.2.2.4.nupkg.sha512",
     "C:\\Users\\srika\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.2.4\\microsoft.entityframeworkcore.relational.2.2.4.nupkg.sha512",
     "C:\\Users\\srika\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\2.2.4\\microsoft.entityframeworkcore.sqlite.core.2.2.4.nupkg.sha512",
     "C:\\Users\\srika\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\2.2.4\\microsoft.entityframeworkcore.sqlserver.2.2.4.nupkg.sha512",

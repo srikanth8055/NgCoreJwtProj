@@ -49,13 +49,8 @@ namespace NgCoreJwtProj.Controllers
         [Route("GetUserList")]
         public List<User> GetListUser()
         {
-            //User user = new User();
-            //user.name = "srikanth";
-            //user.password = "srikanth";
-            //    List<User> users = new List<User>();
-            //users.Add(user);
-            //return users;
-             return _userobj.GetUsers();
+           // return new List<User> { new User { id = 1, name = "srikanth", mailId = "sri@gmail.com",role="admin" }, new User { id = 2, name = "anvesh", mailId = "anv@gmail.com",role="user" } };
+            return _userobj.GetUsers();
         }
 
         // GET: api/<controller> 
@@ -65,6 +60,132 @@ namespace NgCoreJwtProj.Controllers
         {
             return new string[] { "value1", "value2" };
         }
+
+        [HttpGet("GetUserswithDapper")]
+        public ReturnData GetUsers()
+        {
+            try
+            {
+                List<User> users = _userobj.GetUsers();
+                using (ReturnData result = new ReturnData())
+                {
+                    result.data = users;
+                    result.isError = false;
+                    result.isList = true;
+                    result.message = "RecordFetch Successfull.";
+
+                    return result;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Log.LogException(ex.StackTrace);
+
+                using (ReturnData result = new ReturnData())
+                {
+                    result.data = null;
+                    result.isError = true;
+                    result.isList = false;
+                    result.message = "RecordFetch Failed.";
+
+                    return result;
+                }
+            }
+        }
+
+        [HttpGet("GetUsersbyIdDapper/{id}")]
+        public IActionResult GetUsersbyId(int id)
+        {
+            try
+            {
+                return Ok(_userobj.GetUser(id));
+            }
+            catch (Exception ex)
+            {
+                Log.LogException(ex.StackTrace);
+                return BadRequest("Exception occurred");
+            }
+        }
+
+        [HttpDelete("DeleteUserDapper/{id}")]
+        public IActionResult DeleteUserr(int id)
+        {
+            try
+            {
+                return Ok(_userobj.DeleteUserDapper(id));
+            }
+            catch (Exception ex)
+            {
+                Log.LogException(ex.StackTrace);
+                return BadRequest("Exception occurred");
+
+            }
+        }
+
+        [HttpPost("InsertUserDapper")]
+        public IActionResult InsertUser([FromBody] User user)
+        {
+            try
+            {
+                //if (ModelState.IsValid)
+                //{
+                var result = _userobj.SaveUser(user);
+                if (result != null)
+                {
+                    user.password = null;
+                    return Ok(new { isError = false, user = user, Message = "Insert Successfull!" });
+                }
+                else
+                {
+                    return BadRequest(new { isError = true, User = user, Message = "Insert Failed!" });
+                }
+                //}
+                //else
+                //{
+                //    user = null;
+                //    return BadRequest(new { isError = true, user = user, Message = "Null Object Returned." });
+                //}
+            }
+            catch (Exception ex)
+            {
+                Log.LogException(ex.StackTrace);
+                return BadRequest("Exception occurred");
+            }
+        }
+
+        [HttpPut("UpdateUserDapper")]
+        public IActionResult UpdateUser(User user)
+        {
+            try
+            {
+                _userobj.UpdateUser(user);
+                return Ok(new { isError = false, user = user, Message = "Update Successfull!" });
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         //get users with dapper
         #region Dapper
@@ -87,8 +208,7 @@ namespace NgCoreJwtProj.Controllers
             }
             catch (Exception ex)
             {
-                Log log = new Log();
-                log.LogException(Convert.ToString(ex));
+                Log.LogException(ex.StackTrace);
 
                 using (ReturnData result = new ReturnData())
                 {
@@ -111,8 +231,7 @@ namespace NgCoreJwtProj.Controllers
             }
             catch (Exception ex)
             {
-                Log log = new Log();
-                log.LogException(Convert.ToString(ex));
+                Log.LogException(ex.StackTrace);
                 return BadRequest("Exception occurred"); 
             }
         }
@@ -126,8 +245,7 @@ namespace NgCoreJwtProj.Controllers
             }
             catch (Exception ex)
             {
-                Log log = new Log();
-                log.LogException(Convert.ToString(ex));
+                Log.LogException(ex.StackTrace);
                 return BadRequest("Exception occurred");
 
             }
@@ -159,8 +277,7 @@ namespace NgCoreJwtProj.Controllers
             }
             catch (Exception ex)
             {
-                Log log = new Log();
-                log.LogException(Convert.ToString(ex));
+                Log.LogException(ex.StackTrace);
                 return   BadRequest("Exception occurred");
             }
         }
