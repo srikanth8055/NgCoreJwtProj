@@ -108,12 +108,12 @@ namespace NgCoreJwtProj.Controllers
             }
         }
 
-        [HttpPost("DeleteUser")]
-        public IActionResult DeleteUser(User user)
+        [HttpDelete("DeleteUser/{id}")]
+        public IActionResult DeleteUser(int id)
         {
             try
             {
-                _userobj.DeleteUser(user);
+                _userobj.DeleteUser(id);
                 return Ok(new { isError = false, user = "", Message = "Delete Successfull!" });
             }
             catch (Exception ex)

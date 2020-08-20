@@ -39,3 +39,4 @@ D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.Asse
 D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.csproj.CoreCompileInputs.cache
 D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.dll
 D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.pdb
+D:\Development\E\NgCore\NgCoreJwtProj\Models\obj\Debug\netcoreapp2.2\Models.csprojAssemblyReference.cache

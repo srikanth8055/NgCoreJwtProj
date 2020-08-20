@@ -12,7 +12,7 @@ namespace DataLayer.Data
         User GetUser(User user);
         User SaveUser(User user);
         void UpdateUser(User user);
-        void DeleteUser(User user);
+        void DeleteUser(int id);
         User ValidateUserDapper(User user);
 
         List<User> GetUserswithDapper();

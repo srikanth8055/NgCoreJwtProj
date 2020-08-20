@@ -44,7 +44,6 @@ namespace NgCoreJwtProj
                         .AllowAnyHeader();
                     });
             });
-            string con = Configuration.GetConnectionString("MyDbConnection");
             services.AddDbContext<MyDbContext>(Options=>Options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
             services.AddControllers();
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);

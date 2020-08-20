@@ -83,14 +83,18 @@ namespace DataLayer.Data
             
         }
 
-        public void DeleteUser (User user)
+        public void DeleteUser (int id)
         {
             try
             {
-                _dbcontext.tblUser.Remove(user);
-                _dbcontext.SaveChanges();
+                var userdata = _dbcontext.tblUser.FirstOrDefault(u => u.id == id);
+                if (userdata != null)
+                {
+                    var data = _dbcontext.tblUser.Remove(userdata);
+                }
+                _dbcontext.SaveChanges();   
             }
-            catch
+            catch (Exception ex)
             {
 
             }
@@ -99,9 +103,16 @@ namespace DataLayer.Data
         {
             try
             {
-
-                var data=  _dbcontext.tblUser.Update(user);
-
+                var userdata = _dbcontext.tblUser.FirstOrDefault(u => u.id == user.id);
+                if (userdata != null)
+                {
+                    userdata.name = user.name;
+                    userdata.password = user.password;
+                    userdata.role = user.role;
+                    userdata.mailId = user.mailId;
+                    var data = _dbcontext.tblUser.Update(userdata);
+                }
+                _dbcontext.SaveChanges();
 
             }
             catch (Exception ex)
