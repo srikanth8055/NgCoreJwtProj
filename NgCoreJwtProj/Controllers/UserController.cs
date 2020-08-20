@@ -61,7 +61,7 @@ namespace NgCoreJwtProj.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        [HttpGet("GetUserswithDapper")]
+        [HttpGet("GetUsers")]
         public ReturnData GetUsers()
         {
             try
@@ -94,7 +94,7 @@ namespace NgCoreJwtProj.Controllers
             }
         }
 
-        [HttpGet("GetUsersbyIdDapper/{id}")]
+        [HttpGet("GetUsersbyId/{id}")]
         public IActionResult GetUsersbyId(int id)
         {
             try
@@ -108,22 +108,23 @@ namespace NgCoreJwtProj.Controllers
             }
         }
 
-        [HttpDelete("DeleteUserDapper/{id}")]
-        public IActionResult DeleteUserr(int id)
+        [HttpPost("DeleteUser")]
+        public IActionResult DeleteUser(User user)
         {
             try
             {
-                return Ok(_userobj.DeleteUserDapper(id));
+                _userobj.DeleteUser(user);
+                return Ok(new { isError = false, user = "", Message = "Delete Successfull!" });
             }
             catch (Exception ex)
             {
                 Log.LogException(ex.StackTrace);
                 return BadRequest("Exception occurred");
-
+                return Ok(new { isError = true, user = "", Message = "delete failed!" });
             }
         }
 
-        [HttpPost("InsertUserDapper")]
+        [HttpPost("InsertUser")]
         public IActionResult InsertUser([FromBody] User user)
         {
             try
@@ -154,7 +155,7 @@ namespace NgCoreJwtProj.Controllers
             }
         }
 
-        [HttpPut("UpdateUserDapper")]
+        [HttpPut("UpdateUser")]
         public IActionResult UpdateUser(User user)
         {
             try
