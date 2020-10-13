@@ -39,10 +39,7 @@ namespace NgCoreJwtProj.Controllers
         {
             try
             {
-                var constr = configuration["ConnectionStrings:ConnectionString"];
-
-                UserData userdata = new UserData();
-                var data = userdata.GetUser(user);
+                var data = _iuserobj.GetUser(user);
                 if (data != null)
                 {
                     var claims = new[] {
@@ -76,7 +73,6 @@ namespace NgCoreJwtProj.Controllers
                 throw;
             }
         }
-
 
         [HttpPost("ValidateUserDapper")]
         public async Task<IActionResult> ValidateUserDapper([FromBody]User user)

@@ -19,7 +19,7 @@ using System.Net.Mail;
 
 namespace NgCoreJwtProj.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     public class UserController : Controller
     {
@@ -94,7 +94,8 @@ namespace NgCoreJwtProj.Controllers
             }
         }
 
-        [HttpGet("GetUsersbyId/{id}")]
+        [HttpGet]
+        [Route("GetUsersbyId/{id}")]
         public IActionResult GetUsersbyId(int id)
         {
             try
@@ -160,13 +161,16 @@ namespace NgCoreJwtProj.Controllers
         {
             try
             {
+
                 _userobj.UpdateUser(user);
                 return Ok(new { isError = false, user = user, Message = "Update Successfull!" });
             }
             catch (Exception ex)
             {
 
-                throw;
+                Log.LogException(ex.StackTrace);
+                return NotFound(user);
+
             }
         }
 
@@ -306,7 +310,7 @@ namespace NgCoreJwtProj.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "get value";
         }
 
         // POST api/<controller>

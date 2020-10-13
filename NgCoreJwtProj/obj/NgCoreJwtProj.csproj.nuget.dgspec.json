@@ -340,9 +340,9 @@
               "target": "Package",
               "version": "[5.5.0, )"
             },
-            "PI.NLog.Web.AspNetCore": {
+            "NLog.Extensions.Logging": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[1.6.4, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

@@ -81,6 +81,7 @@ D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Micr
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -94,8 +95,6 @@ D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Newt
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\NLog.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
-D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
-D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\PI.NLog.Web.AspNetCore.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
@@ -121,11 +120,10 @@ D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\NgCo
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.csprojAssemblyReference.cache
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.AssemblyInfoInputs.cache
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.AssemblyInfo.cs
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.csproj.CoreCompileInputs.cache
+D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.MvcApplicationPartsAssemblyInfo.cache
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.RazorTargetAssemblyInfo.cache
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.csproj.CopyComplete
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.dll
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.pdb
 D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.genruntimeconfig.cache
-D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.csproj.CoreCompileInputs.cache
-D:\Development\E\NgCore\NgCoreJwtProj\NgCoreJwtProj\obj\Debug\netcoreapp3.1\NgCoreJwtProj.MvcApplicationPartsAssemblyInfo.cache

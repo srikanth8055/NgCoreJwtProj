@@ -16,7 +16,7 @@ namespace DataLayer.Data
     public class UserData : IUserObj
     {
         public UserData() { }
-        private readonly MyDbContext _dbcontext;
+        private MyDbContext _dbcontext;
         public UserData(IConfiguration configuration, MyDbContext dbcontext)
         {
             Configuration = configuration;
@@ -25,18 +25,24 @@ namespace DataLayer.Data
         public IConfiguration Configuration { get; }
         public User GetUser(User user)
         {
-
-            user = _dbcontext.tblUser.SingleOrDefault(x => x.name == user.name && x.password == user.password);
-            if (user != null)
+            try
             {
-                user.password = null;
+              user = _dbcontext.tblUser.SingleOrDefault(x => x.name == user.name && x.password == user.password);
+                if (user != null)
+                {
+                    user.password = null;
+                }
+                else
+                {
+                    user = null;
+                }
+                return user;
             }
-            else
+            catch (Exception)
             {
-                user = null;
-            }
-            return user;
+                return null;
 
+            }
         }
 
         public User GetUser(int id)
@@ -50,7 +56,6 @@ namespace DataLayer.Data
                 LoggerFactory.Log.LogException(ex.StackTrace);
                 return null;
             }
-
         }
 
         public List<User> GetUsers()

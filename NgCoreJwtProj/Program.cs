@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
-
 namespace NgCoreJwtProj
 {
     public class Program
@@ -30,3 +29,4 @@ namespace NgCoreJwtProj
                 .UseStartup<Startup>();
     }
 }
+
